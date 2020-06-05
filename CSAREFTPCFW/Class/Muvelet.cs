@@ -45,10 +45,10 @@ namespace CSARMetaPlan.Class
         [Ac4yWithoutChild]
         [Ac4yAssociationPath("Muvelet.Megfeleltetes")]
         public List<Muvelet> MegfeleltetesLista { get; set; }
-        /*
+        
         [Ac4yEmbedded]
         [Ac4yAssociationPath("Muvelet.MegfeleltetesCsomopont")]
-        public List<MegfeleltetesCsomopont> MegfeleltetesCsomopontLista { get; set; }*/
+        public List<MegfeleltetesCsomopont> MegfeleltetesCsomopontLista { get; set; }
 
         public string FoAzonosito { get; set; }
 

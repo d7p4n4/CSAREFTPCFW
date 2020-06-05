@@ -14,7 +14,7 @@ namespace CSAREFTPCFW
 
             using (var context = new Context())
             {
-
+                
                 context.RAMetaObjektums.Add(raMetaObjektum);
                 context.SaveChanges();
             }

@@ -16,7 +16,6 @@ namespace CSARMetaPlan.Class
         [Ac4yEmbedded]
         [Ac4yWithoutChild]
         [Ac4yAssociationPath("MegfeleltetesCsomopont.Forras")]
-        [NotMapped]
         public Muvelet ForrasMuvelet { get; set; }
 
         [Ac4yEmbedded]

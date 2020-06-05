@@ -14,6 +14,7 @@ namespace CSAREFTPCFW
             new CAPs().InsertRAMetaObjektum(new Programkod()
             {
                 Forrasszoveg = "teszt szöveg"
+                , Id = 1
             });
         }
     }

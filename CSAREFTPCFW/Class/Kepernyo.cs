@@ -13,23 +13,20 @@ namespace CSARMetaPlan.Class
         [Ac4yWithoutChild]
         [Ac4yAssociationPath("Kepernyo.Kepernyo")]
         public List<Kepernyo> KepernyoLista { get; set; }
-        /*
+        
         [Ac4yEmbedded]
         //[Ac4yWithoutChild]
         [Ac4yAssociationPath("Kepernyo.Adatkor")]
-        [NotMapped]
         public List<KepernyoAdatkor> KepernyoAdatkorLista { get; set; }
         
         [Ac4yEmbedded]
         [Ac4yWithoutChild]
-        [NotMapped]
         [Ac4yAssociationPath("Kepernyo.TaroltEljaras")]
-        public List<TaroltEljaras> TaroltEljarasLista { get; set; }*/
+        public List<TaroltEljaras> TaroltEljarasLista { get; set; }
         
         [Ac4yEmbedded]
         [Ac4yWithoutChild]
         [Ac4yAssociationPath("Kepernyo.Muvelet")]
-        [NotMapped]
         public List<Muvelet> MuveletLista { get; set; }
 
         [Ac4yEmbedded]
